@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*"] + %w(CHANGELOG.md README.md)
 
   s.add_dependency "rails", "~> 4.2.5"
-  s.add_dependency "openproject-auth_plugins", "~> 4.0.0"
+  s.add_dependency "openproject-auth_plugins", "~> 5.0.0"
   s.add_dependency "omniauth-gitlab", "~> 1.0.2"
 
   s.add_development_dependency "rspec", "~> 2.14"
